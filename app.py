@@ -18,40 +18,35 @@ async def on_ready():
 
 @bot.command(name='boca')
 async def boca(ctx):
-    '''voiceChannel = discord.utils.get(ctx.guild.channels)
-    vc = await voiceChannel.connect()
-    vc.play(FFmpegPCMAudio("cala.ogg"), after=None)
-    sleep(4)
-    await ctx.voice_client.disconnect()'''
-    await entraBot(ctx, "cala.ogg", 3)
+    await entraBot(ctx, "sounds/cala.ogg", 3)
 
 @bot.command(name='cu')
 async def cu(ctx):
-    await entraBot(ctx, "cu.ogg", 4)
+    await entraBot(ctx, "sounds/cu.ogg", 4)
 
 @bot.command(name='rato')
 async def rato(ctx):
-    await entraBot(ctx, "rato.ogg", 4)
+    await entraBot(ctx, "sounds/rato.ogg", 4)
 
 @bot.command(name='pegadinha')
 async def pegadinha(ctx):
-    await entraBot(ctx, "pegadinha.ogg", 5)
+    await entraBot(ctx, "sounds/pegadinha.ogg", 5)
 
 @bot.command(name='chernobyl')
 async def chernobyl(ctx):
-    await entraBot(ctx, "chernobyl.ogg", 4)
+    await entraBot(ctx, "sounds/chernobyl.ogg", 4)
 
 @bot.command(name='vergonha')
 async def vergonha(ctx):
-    await entraBot(ctx, "vergonha.ogg", 4)
+    await entraBot(ctx, "sounds/vergonha.ogg", 4)
 
 @bot.command(name='pegou')
 async def pegou(ctx):
-    await entraBot(ctx, "pegou.ogg", 4)
+    await entraBot(ctx, "sounds/pegou.ogg", 4)
 
 @bot.command(name='culpa')
 async def culpa(ctx):
-    await entraBot(ctx, "culpa.ogg", 4)
+    await entraBot(ctx, "sounds/culpa.ogg", 4)
 
 
 async def entraBot(ctx, song, tempo):
