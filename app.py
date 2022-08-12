@@ -57,4 +57,4 @@ async def entraBot(ctx, song, tempo):
     await ctx.voice_client.disconnect()
 
 
-bot.run(os.getenv("TOKEN"))
+bot.run("ODI3NzQxMjc0Njg5NTAzMjcz.YGfcIg.Hjm0X-VUgwUoF3BsLyLTXtLWKqk")
